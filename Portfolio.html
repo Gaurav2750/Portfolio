@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Gaurav Mayekar- Web Developer</title>
+
+</head>
+<body>
+
+    <div class="banner-portfolio">
+            <span class="details"><i class="fas fa-phone-volume"></i><a href="tel:9820938643">Contact: +91(9820938643)</a></span>
+            <span class="details"><i class="fa fa-fw fa-envelope"></i><a href="mailto:mayekargaurav17@gmail.com">mail:mayekargaurav17@gmail.com</a></span>
+            <span class="details"><i class="fab fa-instagram"></i>instagram: l_lawliet</span>
+    </div>
+
+    <!--Overlay content-->
+
+     <div class="menubar-mobile-tablet" id="myNav">
+        <div class="menubar-mobile-tablet-content">
+         <ul>
+             <li><a href="tel:9820938643">Contact</a></li>
+             <li><a href="mailto:mayekargaurav17@gmail.com">Mail Me</a></li>
+             <li><a href="#">instagram: l_lawliet</a></li>
+             <li><a href="#project">My Work</a></li>
+         </ul>
+        </div>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     </div>
+
+     <span class= "responsive" onclick="openNav()">&#9776;</span>
+     
+
+    <div class="wrapper-portfolio">
+        <div class="portfolio-content">
+            <h1>Gaurav Mayekar</h1>
+            <h3>Web Developer - Web Designer - Logo Designer</h3>
+            <p>
+                Hello, I am Gaurav professional web Developer,Designer and logo Designer. <br>
+                You can contact me for building your website or design the website or any  <br> changes in current website.
+            </p>
+               <div class="wrapper-btn">
+                <a href="#project" class="btn1">My Work</a>
+                <a href="#my-contact" class="btn2">Contact</a>
+             </div>
+        </div>
+        <div class="portfolio-image">
+        </div>
+    </div>
+
+    <div class="wrapper-work" id="project">
+       <div class="container1" >
+            <a href="https://appliancerepaircrew.ca/" target="_blank"><img src="appliance-work.PNG" alt="" ></a>
+            <span>Developed a website which repairs home appliances</span> <br> <br>
+            <span>Visit: <a class="project-link" href="https://appliancerepaircrew.ca/" target="_blank">https://appliancerepaircrew.ca/</a></span>
+        </div>
+       
+        <div class="container2">
+          <a href="https://appliancerepaircrew.ca/" target="_blank"><img src="appliance-work.PNG" alt="" ></a>
+          <span>Developed a website which repairs home appliances</span> <br> <br>
+          <span>Visit: <a class="project-link" href="https://appliancerepaircrew.ca/" target="_blank">https://appliancerepaircrew.ca/</a></span>
+        </div>
+        <div class="container3">
+          <a href="https://appliancerepaircrew.ca/" target="_blank"><img src="appliance-work.PNG" alt="" ></a>
+          <span>Developed a website which repairs home appliances</span> <br> <br>
+          <span>Visit: <a class="project-link" href="https://appliancerepaircrew.ca/" target="_blank">https://appliancerepaircrew.ca/</a></span>
+        </div>
+
+    </div>
+
+    <div class="wrapper-contact" id="my-contact">
+        <div class="wrapper-contact-content">
+              <h1>For any query contact me</h1> <br>
+              <p>You can contact me for building your <br> website or design the website or any
+                changes in current website.</p> <br>
+
+                <h3>email: <a href="mailto:mayekargaurav17@gmail.com">mayekargaurav17@gmail.com</a></h3> <br>
+                <h3>Contact: <a href="tel:9820938643">+91(9820938643)</a></h3>
+        </div>
+      <div class="wrapper-contact-form">  
+        <form action="post" action="Portfolio.php">
+          <input type="text" placeholder="Name*" name="name" required> <br>
+          <input type="text" placeholder="Contact*" name="contact" required> <br>
+          <input type="text" placeholder="Email*" name="email" required> <br>
+          <input type="text" placeholder="Comments*"  name="comments" required> <br>
+          <input type="submit" value="Submit" id="btn1">
+        </form>
+
+    </div>
+    </div>
+</body>
+
+<script>
+    // Responsive Menu
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";;
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</html>
